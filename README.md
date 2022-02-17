@@ -9,6 +9,7 @@
 <br>
 
 <p align="center">"<i>Did you know all your doors were locked?</i>" - Riddick (The Chronicles of Riddick)</p>
+
 <br>
 
 <p align="center">
@@ -36,15 +37,20 @@
 <br>
 <div align="center">
   <sub>Created by
-  <a href="https://criselyj.github.io/">CriseLYJ</a>
+  <a href="https://Kr1s77.github.io/">@kris</a>
 </div>
 
 <br>
 
 ****
 
-# 💕Website login model
-🌟收集了一些各大网站登陆方式， 和一些网站的爬虫程序，有的是通过selenium登录，有的是通过抓包直接模拟登录，有的是利用scrapy,希望对小白有所帮助,本项目用于研究和分享各大网站的模拟登陆方式，和爬虫程序，会持续更新。。。
+## 传送门
+- [x] [4G 代理](https://github.com/Kr1s77/FgSurfing)
+- [x] [异常处理回调，直接 hook 所有函数，和类](https://github.com/Kr1s77/abnormalities)
+给个 🌟 再走吧...
+    
+## 💕Website login model
+一些爬虫示例程序，以及模拟登陆程序,模拟登陆基于 selenium，有些模拟登录基于 js 逆向，持续更新，有问题可以直接提交 Issues，欢迎提交 PR, 测试通过可以直接 merge，文中所有程序都是使用 ``python3`` 编写 :-)
 
 ## About
 
@@ -52,9 +58,13 @@
 
 虽然在登录的时候采用的是selenium,为了效率，我们可以在登录过后得到的cookie维护起来，然后调用requests或者scrapy等进行数据采集，这样数据采集的速度可以得到保证。
 
+## WebDriver
+[Chrome](https://chromedriver.chromium.org/)
+[FireFox](https://github.com/mozilla/geckodriver/releases/)
 
 ## Completed
 
+- [x] [虾米音乐](https://www.xiami.com/)
 - [x] [Facebook](https://www.facebook.com/)
 - [x] [微博网页版](http://weibo.com)
 - [x] [知乎](http://zhihu.com)
@@ -81,26 +91,26 @@
 - [x] [百度翻译](https://fanyi.baidu.com/)
 
 ## catalogue
-- [x] [Facebook模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/facebook/facebook.py)
-- [x] [微博网页版模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/sina/sina.py)
-- [x] [知乎模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/zhihu/zhihu.py)
-- [x] [QQZone模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/qqzone/qq_zone.py)
-- [x] [CSDN模拟登录--已恢复](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/csdn/csdn_login.py)
-- [x] [淘宝爬虫--重构中](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/taobao)
-- [x] [Baidu模拟登录一](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/baidu)
-- [x] [果壳爬虫程序](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/guoke)
-- [x] [JingDong 模拟登录和自动申请京东试用](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/jd_login)
-- [x] [163mail--已恢复](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/163email/163email.py)
-- [x] [拉钩模拟登录--已失效](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/lagou/Lagou.py)
-- [x] [Bilibili模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/bilibili/bilibili.py)
-- [x] [豆瓣](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/douban/douban.py)
-- [x] [Baidu2模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/baidu2/baidu.py)
-- [x] [猎聘网模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/liepin)
-- [x] [微信网页版登录并获取好友列表](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/webWeixin/webWeixin.py)
-- [x] [Github模拟登录两种解决方案都可行](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/Github)
-- [x] [爬取图虫想要的图片](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/tuchong/tuchong.py)
-- [x] [网易云音乐downloader](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/NeteaseCloudMusicDownload/wangyiyun_spider.py)
-- [x] [糗事百科爬虫](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/qsbk/qiushibaike.py)
+- [x] [虾米音乐](https://github.com/Kr1s77/awesome-python-login-model/tree/master/xiamiMusic)
+- [x] [Facebook模拟登录](https://github.com/Kr1s77/awesome-python-login-model/blob/master/facebook)
+- [x] [微博网页版模拟登录](https://github.com/Kr1s77/awesome-python-login-model/blob/master/sina)
+- [x] [QQZone模拟登录](https://github.com/Kr1s77/awesome-python-login-model/blob/master/qqzone)
+- [x] [CSDN模拟登录--已恢复](https://github.com/Kr1s77/awesome-python-login-model/blob/master/csdn)
+- [x] [淘宝爬虫--重构中](https://github.com/Kr1s77/awesome-python-login-model/tree/master/taobao)
+- [x] [Baidu模拟登录一](https://github.com/Kr1s77/awesome-python-login-model/tree/master/baidu)
+- [x] [果壳爬虫程序](https://github.com/Kr1s77/awesome-python-login-model/tree/master/guoke)
+- [x] [JingDong 模拟登录和自动申请京东试用](https://github.com/Kr1s77/awesome-python-login-model/tree/master/jd_login)
+- [x] [163mail--已恢复](https://github.com/Kr1s77/awesome-python-login-model/blob/master/163email/163email.py)
+- [x] [拉钩模拟登录--已失效](https://github.com/Kr1s77/awesome-python-login-model/blob/master/lagou/Lagou.py)
+- [x] [Bilibili模拟登录](https://github.com/Kr1s77/awesome-python-login-model/blob/master/bilibili/bilibili.py)
+- [x] [豆瓣](https://github.com/Kr1s77/awesome-python-login-model/blob/master/douban/douban.py)
+- [x] [Baidu2模拟登录](https://github.com/Kr1s77/awesome-python-login-model/blob/master/baidu2/baidu.py)
+- [x] [猎聘网模拟登录](https://github.com/Kr1s77/awesome-python-login-model/tree/master/liepin)
+- [x] [微信网页版登录并获取好友列表](https://github.com/Kr1s77/awesome-python-login-model/blob/master/webWeixin/webWeixin.py)
+- [x] [Github模拟登录两种解决方案都可行](https://github.com/Kr1s77/awesome-python-login-model/tree/master/Github)
+- [x] [爬取图虫想要的图片](https://github.com/Kr1s77/awesome-python-login-model/blob/master/tuchong/tuchong.py)
+- [x] [网易云音乐downloader](https://github.com/Kr1s77/awesome-python-login-model/blob/master/NeteaseCloudMusicDownload/wangyiyun_spider.py)
+- [x] [糗事百科爬虫](https://github.com/Kr1s77/awesome-python-login-model/blob/master/qsbk/qiushibaike.py)
 - [x] [淘宝登陆-访问](https://login.taobao.com/member/login.jhtml)
 
 
@@ -120,20 +130,18 @@
 - 关于验证码：本项目所用的方法都没有处理验证码，识别复杂验证码的难度就目前来说，还是比较大的。以我的心得来说，做爬虫最好的方式就是尽量规避验证码。
 - 代码失效：由于网站策略或者样式改变，导致代码失效，请给我提issue，如果你已经解决，可以提PR，谢谢！
 - 正在对部分代码进行优化。。。
-- 如果该repo对大家有帮助，给个star鼓励鼓励吧
+- 如果该repo对大家有帮助，记得 star 哦。
 
-
-## 🎉Life is fantastic🥳! bro💪~
 
 ## Acknowledgments
 
-> [@deepforce](https://github.com/deepforce) | [@cclauss](https://github.com/cclauss) | [ksoeasyxiaosi](https://github.com/ksoeasyxiaosi)
-- 欢迎更多的人来提pr~
-- Thanks for all 🎉
+> [@deepforce](https://github.com/deepforce) | [@cclauss](https://github.com/cclauss) | [ksoeasyxiaosi](https://github.com/ksoeasyxiaosi) | [JasonJunJun](https://github.com/JasonJunJun) | [MediocrityXT](https://github.com/MediocrityXT)
+
+- 感谢以上开发者的支持和贡献。
 
 ## 联系我
 - 欢迎反馈！
-- My Email : criselyj@163.com
+- Email : criselyj@163.com
 
 ## 注意：
 - 本项目仅用于学习和交流
